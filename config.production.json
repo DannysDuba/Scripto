@@ -1,0 +1,28 @@
+{
+    "url": "https://YOUR-APP-NAME.onrender.com",
+    "server": {
+      "port": 10000,
+      "host": "0.0.0.0"
+    },
+    "database": {
+      "client": "mysql2",
+      "connection": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "ghost_prod"
+      }
+    },
+    "mail": {
+      "transport": "Direct"
+    },
+    "logging": {
+      "transports": [
+        "stdout"
+      ]
+    },
+    "process": "systemd",
+    "paths": {
+      "contentPath": "./content/"
+    }
+  }
